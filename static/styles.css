@@ -168,7 +168,6 @@ main {
     text-align: center;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 50px;
 }
 
 .column h2 {
@@ -184,12 +183,21 @@ main {
 
 .column {
     width: 25%;
-    background-color: var(--ribbon-color);
+    height: 350px;
+    background-color: #c400c4;
     color: var(--bgcolor);
     border-radius: 5%;
-    border: 3px solid black;
     box-shadow: -4px 4px 10px grey; /* Shadow around each column */
 
+}
+
+.white-line {
+    width: 90%;
+    height: 90%;
+    margin-top: 5%;
+    margin-left: 4%;
+    border: 2px solid white;
+    border-radius: 5%;
 }
 
 .image-circle {
@@ -397,6 +405,7 @@ i {
 
     .column {
         width: 250px;
+        height: 350px;
         margin-bottom: 50px;
     }
 
@@ -473,6 +482,7 @@ i {
 
     .column {
         width: 250px;
+        height: 350px;
         margin-bottom: 50px;
     }
 
