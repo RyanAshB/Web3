@@ -27,6 +27,15 @@ body {
     margin: 0 auto;
 }
 
+  
+
+.container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
 header {
     background-color: var(--bgcolor);
     color: white;
@@ -159,7 +168,6 @@ main {
     display: flex;
     justify-content: space-between;
     padding-bottom: 150px;
-    padding-top: 75px;
     padding-left: 150px;
     padding-right: 150px;
 }
@@ -176,7 +184,7 @@ main {
 
 .column-top {
     color: #6A2C70;
-    padding-top: 75px;
+    padding-top: 40px;
     padding-left: 150px;
     font-size: 40px;
 }
@@ -189,6 +197,33 @@ main {
     border-radius: 5%;
     box-shadow: -4px 4px 10px grey; /* Shadow around each column */
 
+}
+
+#news-letters {
+    text-align: center;
+    color: #6A2C70;
+}
+
+.news-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.news-section .card {
+    width: 18rem;
+    height: 20rem;
+    text-align: center;
+    background-color: #c400c4;
+    color: white;
+}
+
+.news-section .card p {
+    margin-top: 50px;
+}
+
+.news-section .card a {
+    margin-top: 80px;
 }
 
 .white-line {
@@ -334,8 +369,12 @@ i {
 }
 
 .hiw-content {
-    padding-right: 60%;
+    padding-right: 40%;
     font-size: 30px;
+}
+
+.hiw-content h1 {
+    text-align: center;
 }
 
 .hiw-content p, li {
@@ -345,6 +384,14 @@ i {
 .hiw-content ol li {
     padding-bottom: 50px;
 }
+
+.hiw-content img {
+    width: 70%;
+    margin-left: 15%;
+}
+
+
+
 
 
 .instructions {
