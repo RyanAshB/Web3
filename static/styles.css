@@ -206,8 +206,10 @@ main {
 
 .news-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .news-section .card {
@@ -222,7 +224,7 @@ main {
 }
 
 .news-section .news {
-    width: 290px;
+    width: 25%;
     height: 300px;
     border: 2px solid #c400c4;
     border-radius: 3%;
@@ -283,11 +285,24 @@ footer {
     border-bottom: 3px solid black;
 }
 
+
+
 .footer-content {
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.footer-content .stamp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content img {
+    width: 30px;
+    height: 30px;
 }
 
 .footer-content div {
@@ -296,7 +311,13 @@ footer {
 }
 
 .footer-content a {
-    color: black;
+    color: white;
+    margin-left: 5px
+}
+
+.footer-content p {
+    margin: 0;
+    margin-left: 5px;
 }
 
 /* .footer-content a{
@@ -413,6 +434,19 @@ i {
 
 .instructions li {
     margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.contact-info p {
+    margin: 0;
+    margin-left: 5px;
 }
 
 @media (min-width: 600px) and (max-width: 1024px) {
