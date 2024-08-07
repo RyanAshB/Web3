@@ -92,7 +92,6 @@ nav ul li a.button {
     padding-top: 50px;
     padding-bottom: 100px;
     padding-left: 150px;
-    padding-right: 150px;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
 }
@@ -146,6 +145,7 @@ main {
 .main-text {
     text-align: left;
     width: 70%;
+    padding-right: 50px;
 }
 
 
