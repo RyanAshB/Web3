@@ -237,9 +237,7 @@ main {
     margin-top: 50px;
 }
 
-.news-section .card a {
-    margin-top: 20%;
-}
+
 
 .white-line {
     width: 90%;
@@ -517,6 +515,20 @@ i {
         padding-right: 20%;
         padding-left: 20%;
     }
+
+    .news-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .news-section .news{
+        margin-bottom: 10%;
+        width: 250px;
+        height: 350px;
+        margin-bottom: 50px;
+    }
 }
 
 
@@ -604,7 +616,12 @@ i {
 
     .news-section .news{
         margin-bottom: 10%;
+        width: 250px;
+        height: 350px;
+        margin-bottom: 50px;
     }
+
+
 }
 
 
